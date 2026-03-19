@@ -3,14 +3,10 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'lead-gen-automation',
-  description: 'Revenue-generating SaaS product',
+  description: 'B2B lead generation and outreach',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>

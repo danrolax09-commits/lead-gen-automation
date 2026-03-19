@@ -50,7 +50,7 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800">
       <header className="border-b border-slate-700">
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-white">Revenue Product</h1>
+          <h1 className="text-3xl font-bold text-white">🎣 Lead Gen Automation</h1>
           <nav className="flex gap-4">
             <a href="#features" className="text-slate-300 hover:text-white">Features</a>
             <a href="#pricing" className="text-slate-300 hover:text-white">Pricing</a>
@@ -59,8 +59,8 @@ export default function Home() {
       </header>
 
       <section className="max-w-7xl mx-auto px-4 py-20 text-center">
-        <h2 className="text-5xl font-bold text-white mb-6">Transform Your Workflow</h2>
-        <p className="text-xl text-slate-400 mb-8 max-w-2xl mx-auto">Powerful, simple, and affordable.</p>
+        <h2 className="text-5xl font-bold text-white mb-6">Automate Your Lead Generation Machine</h2>
+        <p className="text-xl text-slate-400 mb-8 max-w-2xl mx-auto">Capture, qualify, and nurture leads automatically. Turn visitors into customers without manual work.</p>
         <button
           onClick={() => document.getElementById('pricing')?.scrollIntoView()}
           className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold"
